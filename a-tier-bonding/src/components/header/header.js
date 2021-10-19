@@ -1,18 +1,20 @@
-import './header.css';
 import React from 'react';
 import Container from '@mui/material/Container';
-import Paper from '@mui/material/Paper'
-import Button from '@mui/material/Button'
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Container>
-      <Paper>
-        <Button> Home </Button>
-        <Button> Schedule </Button> 
-        <Button> Team </Button> 
-      </Paper>
-    </Container>
+    <div>
+      <Container>
+        <ButtonGroup size="large" variant="text">
+          <Button><Link to="/"> Home </Link> </Button> 
+          <Button><Link to="/schedule"> Schedule </Link> </Button> 
+          <Button> Team </Button> 
+        </ButtonGroup> 
+      </Container>
+    </div>
   );
 }
 

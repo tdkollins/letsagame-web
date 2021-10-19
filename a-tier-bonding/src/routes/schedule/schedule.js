@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 
-function homepage() {
+function schedule() {
   return (
     <Container> 
-      hi
+      death 
     </Container>
   );
 }
 
-export default homepage;
+export default schedule;
