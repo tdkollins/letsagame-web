@@ -1,19 +1,29 @@
 import React from 'react';
-import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
+import { createTheme, ThemeProvider } from '@mui/system';
 
+const NavBarStyles = ({
+   display: 'flex', 
+   justifyContent: 'flex-end', 
+
+});
+
+const NavBarButtons = ({
+  color: 'white'
+});
 function Header() {
   return (
     <div>
-      <Container>
+      <Box sx={NavBarStyles}>
         <ButtonGroup size="large" variant="text">
-          <Button><Link to="/"> Home </Link> </Button> 
-          <Button><Link to="/schedule"> Schedule </Link> </Button> 
-          <Button> Team </Button> 
+          <Button component={Link} to='/'>  Home  </Button> 
+          <Button component={Link} to='/schedule'> Schedule  </Button> 
+          <Button component={Link} to='/schedule'> Team </Button> 
         </ButtonGroup> 
-      </Container>
+      </Box>
     </div>
   );
 }

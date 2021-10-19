@@ -3,9 +3,12 @@ import Container from '@mui/material/Container';
 
 function homepage() {
   return (
-    <Container> 
+    <div>
+      <Container>
       hi
-    </Container>
+      </Container>
+    </div>
+
   );
 }
 
