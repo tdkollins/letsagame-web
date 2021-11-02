@@ -3,22 +3,22 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
-import { createTheme, ThemeProvider } from '@mui/system';
+import './header.css'
 
 const NavBarStyles = ({
    display: 'flex', 
    justifyContent: 'flex-end', 
-
+   backgroundColor: '#134311',
+   padding: '0% 7% 0.5% 0% ',
+   color: 'white'
 });
 
-const NavBarButtons = ({
-  color: 'white'
-});
+
 function Header() {
   return (
     <div>
       <Box sx={NavBarStyles}>
-        <ButtonGroup size="large" variant="text">
+        <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/'>  Home  </Button> 
           <Button component={Link} to='/schedule'> Schedule  </Button> 
           <Button component={Link} to='/schedule'> Team </Button> 
