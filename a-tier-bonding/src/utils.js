@@ -25,6 +25,7 @@ function dumpTeamObject(row) {
 }
 
 async function getSheets(sheetIndex) {
+  /* Helper which authenticates with the google sheets */
   const doc = new GoogleSpreadsheet('13Q9rOkK_n2vd77exl4S-Xcl9wCjSnmzTMnbmldv_9cc');
   await doc.useServiceAccountAuth(serviceAccountCreds);
   await doc.loadInfo();
@@ -33,6 +34,18 @@ async function getSheets(sheetIndex) {
 }
  
 export async function getGames() {
+  /*
+    Retrieves schedule from the google sheets.
+    Returns a promise with resolved format:
+      [
+        {
+          name: str,
+          startTime: Date (utc)
+          endTime: Date (utc)
+          gamePlayers: [str]
+        }
+      ]
+  */
   const rows = await getSheets(1);
   let games = [];
   rows.forEach((row) => {
@@ -42,6 +55,23 @@ export async function getGames() {
 }
 
 export async function getTeamProfiles() {
+  /*
+    Retrieves team profiles from the google sheets.
+    Returns a promise with resolved format:
+      [
+        {
+          name: str,
+          pfpPath: str,
+          description: str,
+          socialMediaURLs: {
+            twitter: str (optional)
+            instagram: str (optional)
+            twitch: str (optional)
+            tikTok: str (optional)
+          }
+        }
+      ]
+  */
   const rows = await getSheets(2);
   let teamProfiles = [];
   rows.forEach((row) => {
