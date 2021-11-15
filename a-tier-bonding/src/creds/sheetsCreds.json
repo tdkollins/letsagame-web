@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "a-tier-bonding",
+  "private_key_id": "3384d6638c9614e5be4ba695f20dbae6921e495f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCjxvwZm8wNqhJq\n4hZyCB6uQj6WBTtjjQ4CMFv1dd31x5YpZ7o/t4oYL4G1QNE9iOuYst4pzUxXYeQW\nBmK0vY0RbRs65ct8OL9V+McuoO2lBhMU91iriLHyeAVPdl6MDG/qm1rmJwbwbocd\njQAgHqQYMPgkrX1q9C+5HFwuD2EhxBeL/Qj4VBOuLMuJM2j6Ta8aTZwrR72sn4eX\nXD3BEYa5oCF131YTmoCpyUTpW7ita3LFHVISiGKQmA1DZsVMvZ6KlaVDeDQoS9CY\n00rZzzJhN+2CvV34+0HIAICGpLcoibgVXA2rhBwQX6TlGP6l5MXxuV+pgXxgE7Rz\nFp3wNoBFAgMBAAECggEALPRgnJLkNtf5CDeY26IY8dIjJcC35YKBVt55T24UB/PJ\n5wGe4QB7OlpH6z2ocZCUwqxOSQEeNFodZmJIU74365GcSNVsvmNBOdL4sXbg5Ew/\njqC6SRNTbO++3WnrV9vOGIKeN9B8miBsnBLo9ugSOMWwRzkL1QDD3LbJIqd8DO06\n9H8LYggD5FqP+6z8Kp76LxSFXO5i79twgqMRTR3P/MCSdP7U2KrTIfW3LI3lagt/\nBMKdON8Ctf96iBfAQ4v9sHXl1RBoJHtuBqe+xGQIALOdrx7TDu28Awkn3Dfn95cw\nmOwRZ44g5F1NStjECFwbZI9Rn0UrgrpDSz3l86fDPQKBgQDM6Ghk748rsR8jZHXI\nNCbBSvFP+Xo/NB6ldYtA7RlCINxzcmlvSPvUOgKa4YKmSdjSmQ2fYSYbfMt6vFHq\niIul42oH2Zop9/MpXaKa2ZcjGHXRhqf03z4EphL5KaPTW3ZhDMH/X+iwON31A4GE\nyhWyEvwWMIZKvr9WCyJggOVi3wKBgQDMnSX0UvMD9hLf8IcngPWUMnRiX8WrPNs3\nSfB3n72e8NiGaj8SceFnu5m8OmjN97B+1vOQUX4eiIhbJaNqMhGJIhMP+RV7A15S\n+6NeU+KrKMXGgNnSudcKUTNY3ZVJh+WVu8Jz6NKd20LDRp29RMnUdjtMmFIXSkvm\nrJZI4gIFWwKBgQCJ36NGr05VZsN96/24bSbajpOabVINLwOj71h4olCJh1TuNUCu\nSZxw62uPTUe8nhnPcn6RDCw4+JpthkNUHPZh84gHqioqLRUnc0KTEO+6BJ5aElH2\n2TOAq0I+9v6tm3Am0w/BxoXp9Qmb7/T5JYS9ojqOr63co0ZZHfrOlkxCXwKBgQC+\nhUkU8bPEKXmzuQQv3V1Ni5lhDCpDYtv/5EIbMMtgVoRWzFFEPHOUolLouD5kIlDe\nGgoahDb5+Ul2DVrXBB3d4bN8OQMuUpmejR62M0eo9cMKLWolU9OOkMNN6K0cFYTJ\n4lWSleSfBc1phLRVytpfkWNv05kEhLKd7G/XF1KoZwKBgQCS7vIJm0uNagj11aLp\n3nHGKbFUs8T8O/peaZMZk0dFb1IP9274jNpBdAuWnvHVvD8laDXkTTPbr4r1GBwb\ncVsR9Il98OPF9YtfLCSZNhSelNMhtL8MPc/cFlz6bVAaPv8AfEZEjg4NDPnmNShA\nh8eWwlAQcp8ZmkcKVbk8yVeIqg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "a-tier-bonding@a-tier-bonding.iam.gserviceaccount.com",
+  "client_id": "112896676193367579938",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/a-tier-bonding%40a-tier-bonding.iam.gserviceaccount.com"
+}
