@@ -7,10 +7,11 @@ import './header.css'
 
 const NavBarStyles = ({
    display: 'flex', 
-   justifyContent: 'flex-end', 
-   backgroundColor: '#134311',
-   padding: '0% 7% 0.5% 0% ',
-   color: 'white'
+   justifyContent: 'flex-end',  
+   backgroundColor: 'rgb(249, 249, 249)',
+   padding: '0vh 20vh 1vh 0vh ',
+   borderBottom: "3px solid rgb(151, 182, 191)",
+   
 });
 
 
