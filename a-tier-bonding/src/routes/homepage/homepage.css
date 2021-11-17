@@ -5,3 +5,9 @@
   width: 180%;
   height: 210%; 
 }
+
+.background { 
+  background-color: white ;
+  width:100%;
+  min-height:87vh; 
+}
