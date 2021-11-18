@@ -4,6 +4,9 @@ import Box from '@mui/material/Box';
 import './homepage.css'
 import YoutubeEmbed from "../../components/YoutubeEmbed/youtubeembed";
 import Timer from 'react-compound-timer'
+import { Parallax } from 'react-parallax';
+import thisisfine from "../../assets/thisisfine.jpg"
+import fullparty from "../../assets/fullparty.jpg"
 
 const HomeMain = ({
   // marginLeft: '30vh',
@@ -45,7 +48,9 @@ function homepage() {
             </Timer>
         </Box>    
         <Box className="desc-box">
-          <h2> This is a test </h2>
+          <Parallax className="desc-box-image" bgImage={fullparty} bgImageAlt="this is fine" strength={300}>
+            <h2> This is a test </h2>
+          </Parallax>
         </Box>
       </Box>
     </div>
