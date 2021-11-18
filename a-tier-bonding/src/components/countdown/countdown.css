@@ -2,8 +2,31 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   /* background-color: red; */
   min-height: 25vh;
+  font-family: Mario;
+}
+
+
+.timer-display { 
+  display: flex; 
+  font-size: 16vh;
+}
+
+.timer-box h2 {
+  font-size: 5vh;
+}
+.timer-text-display {
+  display: flex;
+  padding-left: 10vh;
+}
+.timer-text-display h3{ 
+  padding: 0vh 6vh;
+}
+@font-face {
+  font-family: Mario;
+  src: url(../../assets/fonts/Mario/SuperMario.ttf) format('truetype');
 }
