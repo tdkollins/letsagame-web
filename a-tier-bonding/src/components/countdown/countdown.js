@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, Text} from 'react';
 import Box from '@mui/material/Box';
 import './countdown.css'
 import Timer from 'react-compound-timer'
@@ -18,14 +18,20 @@ function Countdown() {
               direction="backward"
           >
             {() => (
-                <div>
-                    <Timer.Days />  days 
-                    <Timer.Hours /> hours
-                    <Timer.Minutes /> minutes
-                    <Timer.Seconds/> seconds
+                <div className="timer-display">
+                    <Timer.Days formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :
+                    <Timer.Hours formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :
+                    <Timer.Minutes  formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :  
+                    <Timer.Seconds formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> 
                 </div>
             )}
           </Timer>
+          <div className="timer-text-display">
+            <h3> Days </h3>
+            <h3> Hours </h3>
+            <h3> Minutes </h3>
+            <h3> Seconds </h3>
+          </div>
       </Box>    
     </div>
 

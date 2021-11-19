@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     min-height: 80vh;
-    background-color: black;
+    background: black;
 }
 
 .desc-box-image {
@@ -15,5 +15,21 @@
     align-items: center;
     justify-content: center;
     min-height: 80vh;
-    opacity: 0.4;
+    text-align: center;
+    line-height: 6.5vh;
+    /* opacity: 0.4; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
+
+.desc-text {
+  color: white;
+  font-family: Nevis;
+  font-size: 4vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(214, 243, 248);
+}
+@font-face {
+    font-family: Nevis;
+    src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+  }
