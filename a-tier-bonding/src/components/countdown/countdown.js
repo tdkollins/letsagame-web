@@ -20,17 +20,21 @@ function Countdown() {
             {() => (
                 <div className="timer-display">
                     <Timer.Days formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :
-                    <Timer.Hours formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :
-                    <Timer.Minutes  formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> :  
-                    <Timer.Seconds formatValue={value => value >= 10 ? `${value}`: `0${value}`}/> 
+                    <Timer.Hours formatValue={value => value >= 10 ? ` ${value}`: ` 0${value}`}/> :
+                    <Timer.Minutes  formatValue={value => value >= 10 ? ` ${value}`: ` 0${value}`}/> :  
+                    <Timer.Seconds formatValue={value => value >= 10 ? ` ${value}`: ` 0${value}`}/> 
                 </div>
             )}
           </Timer>
-          <div className="timer-text-display">
-            <h3> Days </h3>
-            <h3> Hours </h3>
-            <h3> Minutes </h3>
-            <h3> Seconds </h3>
+          <div class="timer-text-box">
+            <div className="timer-text-display">
+              <h3> Days </h3>
+              <h3> Hours </h3>
+              <h3> Minutes </h3>
+            </div>
+            <div className="timer-text-display-seconds">
+              <h3> Seconds </h3>
+            </div>
           </div>
       </Box>    
     </div>

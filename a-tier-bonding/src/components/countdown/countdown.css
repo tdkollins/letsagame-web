@@ -19,13 +19,22 @@
 .timer-box h2 {
   font-size: 6vh;
 }
+.timer-text-box {
+  display: flex;
+  padding-left: 5vh;
+}
 .timer-text-display {
   display: flex;
-  padding-left: 10vh;
+  padding-left: 3vh;
 }
 .timer-text-display h3{ 
-  padding: 0vh 6vh;
+  padding: 0vh 8vh;
   font-size: 5vh; 
+}
+.timer-text-display-seconds h3 {
+  padding-right: 10vh;
+  padding-left: 5vh;
+  font-size: 5vh;
 }
 @font-face {
   font-family: Mario;
