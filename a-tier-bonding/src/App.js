@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route} from "react-router-dom";
-import Home from './routes/Homepage/homepage';
-import Header from './components/Header/header';
-// import Schedule from './routes/Schedule/schedule'; 
-import Footer from './components/Footer/footer'
+import Home from './routes/homepage/homepage';
+import Header from './components/header/header';
+// import Schedule from './routes/schedule/schedule'; 
+import Footer from './components/footer/footer'
 
 function App() {
   return (
