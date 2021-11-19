@@ -1,0 +1,75 @@
+.video-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 239, 241);
+}
+
+.video-plus-desc-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.video-embed-box {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.video-desc-box {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+.video-desc {
+    padding-right: 0%;
+    text-align: center;
+    color: black;
+    font-family: Nevis;
+    font-size: 4vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@font-face {
+    font-family: Nevis;
+    src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}
+  
+
+
+
+.video {
+    /* vertical-align: top;
+    flex: 1;
+    background-color:blue; */
+}
+
+
+/* .video-responsive {
+    overflow: hidden; 
+    padding-bottom: 56.25%;
+    position: flex;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+} */
+  
+/* .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+} */
+  
