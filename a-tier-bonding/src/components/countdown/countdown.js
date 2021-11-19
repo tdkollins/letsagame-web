@@ -1,4 +1,4 @@
-import {React, Text} from 'react';
+import {React} from 'react';
 import Box from '@mui/material/Box';
 import './countdown.css'
 import Timer from 'react-compound-timer'

@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import YoutubeEmbed from "../../components/YoutubeEmbed/youtubeembed";
+import YoutubeEmbed from "../YoutubeEmbed/youtubeEmbed";
 import './videoComponent.css'
 
 function VideoComponent() {

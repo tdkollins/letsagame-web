@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 
-function schedule() {
+function Schedule() {
   return (
     <Container> 
       death 
@@ -9,4 +9,4 @@ function schedule() {
   );
 }
 
-export default schedule;
+export default Schedule;
