@@ -21,8 +21,8 @@ function Header() {
       <Box sx={NavBarStyles}>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/'>  Home  </Button> 
-          <Button component={Link} to='/schedule'> Schedule  </Button> 
-          <Button component={Link} to='/schedule'> Team </Button> 
+          {/* <Button component={Link} to='/schedule'> Schedule  </Button> 
+          <Button component={Link} to='/schedule'> Team </Button>  */}
         </ButtonGroup> 
       </Box>
     </div>

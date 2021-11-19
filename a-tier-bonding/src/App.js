@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header/>
       <Route path="/" exact component={Home} />
-      <Route path="/schedule" exact component={Schedule} />
+      {/* <Route path="/schedule" exact component={Schedule} /> */}
       <Footer/> 
     </Router>
     </div>

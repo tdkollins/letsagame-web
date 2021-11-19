@@ -17,7 +17,7 @@
 }
 
 .timer-box h2 {
-  font-size: 5vh;
+  font-size: 6vh;
 }
 .timer-text-display {
   display: flex;
@@ -25,6 +25,7 @@
 }
 .timer-text-display h3{ 
   padding: 0vh 6vh;
+  font-size: 5vh; 
 }
 @font-face {
   font-family: Mario;
