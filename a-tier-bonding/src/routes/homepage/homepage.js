@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import './homepage.css'
 import AboutUs from "../../components/AboutUs/aboutUs";
-import Countdown from "../../components/Countdown/countdown";
+import Countdown from "../../components/countdown/countdown";
 import VideoComponent from "../../components/VideoComponent/videoComponent";
 
 function Homepage() { 
