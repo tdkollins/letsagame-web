@@ -10,7 +10,7 @@ function App() {
   return (
     <div>  
     <Router>
-      <Header/>
+      <Header />
       <Route path="/" exact component={Home} />
       {/* <Route path="/schedule" exact component={Schedule} /> */}
       <Footer/> 
