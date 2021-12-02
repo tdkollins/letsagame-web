@@ -1,0 +1,41 @@
+.schedule { 
+  font-family: Nevis;
+  min-height:87vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(228, 239, 241);
+}
+
+.left-border {
+  border-left: solid grey; 
+}
+
+.schedule-table { 
+  padding-top: 2.5vh;
+}
+.schedule-table table{
+ 
+  border: grey; 
+  border-style: solid; 
+}
+.schedule-table-first{
+  border-top: solid grey; 
+  padding: 5vh; 
+
+}
+.schedule-table-rest{
+  border-top: solid grey;
+  border-left:solid grey;
+  padding: 5vh;  
+}
+.schedule-loading {
+  font-family:Nevis;
+  min-height:87vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh; 
+}
+@font-face {
+  font-family: Nevis;
+  src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}
