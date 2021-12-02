@@ -14,7 +14,7 @@ function VideoComponent() {
                 </h2>
             </box>
             <box className="video-embed-box">
-                <YoutubeEmbed className="video" embedId="eUu9e55VbBg" />
+                <YoutubeEmbed className="video" embedId="VmvWSvHShj4" />
             </box>
         </box>
     </Box>
