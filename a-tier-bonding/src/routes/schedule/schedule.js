@@ -18,6 +18,7 @@ function Schedule() {
   return (
     loaded ? 
     <div className="schedule">
+      <h2>Schedule: All Times EST</h2>
       <div className="schedule-table">
         <table id='name'>
           <thead>
@@ -38,7 +39,7 @@ function Schedule() {
                   <td className="schedule-table-first">{name}</td>
                   <td className="schedule-table-rest">{startTimeEST}</td>
                   <td className="schedule-table-rest">{endTimeEST}</td>
-                  <td className="schedule-table-rest">{gamePlayers.join(' , ')}</td>
+                  <td className="schedule-table-rest">{gamePlayers.join(', ')}</td>
                 </tr>
               )
             })}

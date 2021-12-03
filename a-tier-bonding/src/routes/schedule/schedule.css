@@ -3,37 +3,40 @@
   min-height:87vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: rgb(228, 239, 241);
+  flex-direction: column;
 }
 
 .left-border {
-  border-left: solid grey; 
+  border-left: solid 5px grey; 
 }
 
 .schedule-table { 
-  padding-top: 2.5vh;
+  padding-bottom: 3.5vh;
 }
 .schedule-table table{
- 
-  border: grey; 
+  border: rgb(92, 89, 89) 10px; 
   border-style: solid; 
+  border-radius: 15px;
 }
 .schedule-table-first{
-  border-top: solid grey; 
-  padding: 5vh; 
-
+  border-top: solid 5px grey; 
+  padding: 4vh; 
+  text-align: center;
 }
 .schedule-table-rest{
-  border-top: solid grey;
-  border-left:solid grey;
-  padding: 5vh;  
+  border-top: solid 5px grey;
+  border-left:solid 5px grey;
+  padding:4vh;  
+  text-align: center;
 }
 .schedule-loading {
   font-family:Nevis;
   min-height:87vh;
   display: flex;
   justify-content: center;
-  padding-top: 5vh; 
+  padding-top: 4vh; 
 }
 @font-face {
   font-family: Nevis;
