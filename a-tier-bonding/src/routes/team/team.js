@@ -1,10 +1,9 @@
 import {React} from 'react';
 import "./team.css"
 import TeamProfile from '../../components/TeamProfile/teamProfile'
-
 const dummyTeamMember = [{
   name: 'Mcnuggies',
-  pfpPath: '../../assets/background1.jpg',
+  pfpPath: 'dummy',
   description: "here's my blah blah message", 
   socialMediaURLs: {
     twitter: 'https://twitter.com/Lets_A_Game',
