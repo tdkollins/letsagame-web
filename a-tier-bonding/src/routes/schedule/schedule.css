@@ -6,6 +6,7 @@
   align-items: center;
   background-color: rgb(228, 239, 241);
   flex-direction: column;
+  min-width: 1500px;
 }
 
 .left-border {

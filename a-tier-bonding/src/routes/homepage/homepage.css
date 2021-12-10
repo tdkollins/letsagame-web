@@ -21,6 +21,7 @@
   /* background-color: yellow; */
   display: flex;
   flex-direction: column;
+  min-width: 1500px;
 }
 
 .video-box {
