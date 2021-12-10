@@ -13,7 +13,7 @@ const FootBarStyles = ({
 function Footer() {
   return (
     <div>
-      <Box sx={FootBarStyles}>
+      <Box sx={FootBarStyles} style={{minWidth: 1425}}>
         <h4> Follow us on social media ! </h4> 
         <Button><SocialIcon url="https://www.youtube.com/channel/UCJHP_c33l2zt8KnRnD3mHrA" style={{ height: 35, width: 35 }}/> </Button>
         <Button><SocialIcon url="https://www.facebook.com/lets.koilins.3" style={{ height: 35, width: 35 }}/> </Button>
