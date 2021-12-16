@@ -9,14 +9,10 @@ function Twitch() {
         id="phieki"
         theme="dark"
         muted
-        width={1280}
+        width={1400}
         height={720}
         onVideoPause={() => console.log(':(')}
-        withChat={false}
-      />
-      <TwitchChat
-        channel="phieki"
-        theme="dark"
+        withChat={true}
       />
     </div>
   );
