@@ -27,7 +27,8 @@ const NavBarStylesNotFixed = ({
   padding: '0vh 20vh 1vh 5vh ',
   borderBottom: "3px solid rgb(151, 182, 191)",
   alignItems: "center",
-  zIndex: "0"
+  zIndex: "0",
+  minWidth: "1300px" 
 });
 
 
@@ -38,17 +39,12 @@ function Header() {
         <img src={earthLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          {/* <Button component={Link} to='/schedule'> Schedule  </Button> 
-          <Button component={Link} to='/schedule'> Team </Button>  */}
+          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          {/* <Button component={Link} to='/schedule'> Team </Button>  */}
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed}>
-        <img src={earthLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
-        <ButtonGroup color='inherit' size="large" variant="text">
-          <Button component={Link} to='/'  style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          {/* <Button component={Link} to='/schedule'> Schedule  </Button> 
-          <Button component={Link} to='/schedule'> Team </Button>  */}
-        </ButtonGroup> 
+        <div style={{ height: "75px"}}/>
       </Box>
     </div>
   );
