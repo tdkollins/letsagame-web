@@ -1,10 +1,20 @@
 import React from 'react';
-import HomepageLive from "../../components/HomepageLive/HomepageLive";
-import HomepageNotLive from "../../components/HomepageNotLive/HomepageNotLive";
+import Box from '@mui/material/Box';
+import './homepage.css'
+import AboutUs from "../../components/AboutUs/aboutUs";
+import Countdown from "../../components/countdown/countdown";
+import VideoComponent from "../../components/VideoComponent/videoComponent";
 
 function Homepage() { 
   return (
-    <HomepageLive/>
+    <div className="background">
+      <Box  className="home-box" >
+        <VideoComponent/>
+        <Countdown/>   
+        <AboutUs/>
+      </Box>
+    </div>
+
   );
 }
 
