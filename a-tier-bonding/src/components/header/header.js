@@ -40,6 +40,8 @@ function Header() {
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
+          <Button href='https://tiltify.com/@phieki/letsagame-earth/donate' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
           {/* <Button component={Link} to='/schedule'> Team </Button>  */}
         </ButtonGroup> 
       </Box>
