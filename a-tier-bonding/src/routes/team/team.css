@@ -1,0 +1,10 @@
+.profiles-container{
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+  padding: 5vh 0vh; 
+}
+.member-container{
+  margin-left: 5vh; 
+  margin-right: 5vh;
+}

@@ -5,10 +5,10 @@ import IconButton from '@mui/material/IconButton';
 import ProfilePopup from '../ProfilePopup/profilePopup';
 
 function TeamProfile (props) {
-  const team_members = props.members; 
+  const team_member = props.member; 
   const [open, setOpen] = useState(false);
   const images = require.context('../../assets/teamprofile', true);
-  const {name , pfpPath, description, socialMediaURLS} = team_members[0]; 
+  const {name , pfpPath, description, socialMediaURLs} = team_member; 
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -34,7 +34,7 @@ function TeamProfile (props) {
           name={name}
           pfpPath={pfpPath}
           description={description}
-          socialMediaURLS={socialMediaURLS}
+          socialMediaURLs={socialMediaURLs}
           open={open}
           onClose={handleClose}
         />
