@@ -1,0 +1,27 @@
+.profiles-container{
+  
+  padding: 5vh 0vh; 
+}
+.member-container{
+  margin-left: 5vh; 
+  margin-right: 5vh;
+  flex-grow: 33%;
+}
+.profile-row {
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+}
+
+.schedule-loading {
+  font-family:Nevis;
+  min-height:87vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh; 
+}
+
+@font-face {
+  font-family: Nevis;
+  src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}

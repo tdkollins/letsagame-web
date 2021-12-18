@@ -26,7 +26,7 @@ function Countdown() {
                 </div>
             )}
           </Timer>
-          <div class="timer-text-box">
+          <div className="timer-text-box">
             <div className="timer-text-display">
               <h3> Days </h3>
               <h3> Hours </h3>

@@ -1,0 +1,16 @@
+.pp-description{
+  max-width: 36vh;
+  font-family: Nevis;
+
+}
+.pp-socialmedia{
+  margin-right: 2vh; 
+}
+.pp-name { 
+  font-family: Nevis;
+}
+
+@font-face {
+  font-family: Nevis;
+  src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}
