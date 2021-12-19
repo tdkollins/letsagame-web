@@ -1,0 +1,39 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  font-family:Nevis; 
+}
+
+.profile-container:hover .overlay {
+  opacity: 1;
+}
+.profile-container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(0, 0, 0, 0.212)  ;
+  color: black; 
+}
+
+.overlay-text { 
+  font-size: 2vh; 
+  margin-top: 6vh;
+  font-family: Nevis; 
+}
+@font-face {
+  font-family: Nevis;
+  src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}

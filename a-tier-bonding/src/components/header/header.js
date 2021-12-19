@@ -1,4 +1,4 @@
-import {React, Component} from 'react';
+import {React} from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -40,13 +40,20 @@ function Header() {
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button href='https://tiltify.com/@phieki/letsagame-earth/donate' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
-          {/* <Button component={Link} to='/schedule'> Team </Button>  */}
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed}>
-        <div style={{ height: "75px"}}/>
+        <img src={earthLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
+        <ButtonGroup color='inherit' size="large" variant="text">
+          <Button component={Link} to='/'  style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
+          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
+          <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
+          <Button href='https://tiltify.com/@phieki/letsagame-earth/donate' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
+        </ButtonGroup> 
       </Box>
     </div>
   );
