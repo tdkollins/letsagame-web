@@ -3,14 +3,13 @@ import Box from '@mui/material/Box';
 import './homepage.css'
 import AboutUs from "../../components/AboutUs/aboutUs";
 import Countdown from "../../components/countdown/countdown";
-import VideoComponentNotLive from "../../components/VideoComponentNotLive/videoComponentNotLive";
+import VideoComponentLive from "../../components/VideoComponentLive/videoComponentLive";
 
 function HomepageLive() { 
   return (
     <div className="background">
       <Box  className="home-box" >
-        <VideoComponentNotLive/>
-        <Countdown/> 
+        <VideoComponentLive/>
         <AboutUs/>
       </Box>
     </div>
