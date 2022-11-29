@@ -5,6 +5,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
 import './header.css'
 import earthLogo from "../../assets/earth-logo.png"
+import legacyLogo from "../../assets/legacy-logo.png"
 
 const NavBarStylesFixed = ({
    display: 'flex', 
@@ -36,10 +37,10 @@ function Header() {
   return (
     <div>
       <Box sx={NavBarStylesFixed}>
-        <img src={earthLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
+        <img src={legacyLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button href='https://tiltify.com/@phieki/letsagame-earth/donate' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
@@ -49,7 +50,7 @@ function Header() {
         <img src={earthLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/'  style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button> 
+          {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button href='https://tiltify.com/@phieki/letsagame-earth/donate' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
