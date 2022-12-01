@@ -36,7 +36,7 @@ function Header() {
   return (
     <div>
       <Box sx={NavBarStylesFixed}>
-        <img src={legacyLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
+        <img src={legacyLogo} style={{ height: "80px", width: "80px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
           {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
@@ -46,7 +46,7 @@ function Header() {
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed}>
-        <img src={legacyLogo} style={{ height: "75px", width: "75px" }} alt="Logo"/>
+        <img src={legacyLogo} style={{ height: "80px", width: "80px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/'  style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
           {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
