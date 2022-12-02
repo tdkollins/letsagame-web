@@ -16,8 +16,8 @@ function AboutUs() {
           and silliness is held in an effort to raise as much money as possible 
           for a good cause. Viewers participate directly, talking via live chat, 
           donating towards fun incentives, hanging out and having a good time. 
-          Come join us for our 9th event, Let’s-A-Game Earth, in support of 
-          Conservation International, beginning on December 19th at 8am EST! 
+          Come join us for our 10th event, Let's-A-Game Legacy, in support of Help Hope Live,
+           beginning on January 1st 8am EST! 
           </h2>
         </Parallax>
       </Box>
