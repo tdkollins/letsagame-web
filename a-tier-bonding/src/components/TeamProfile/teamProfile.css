@@ -2,14 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;  
-  width: 8vw; 
   font-family:Nevis; 
-  text-align: center;
 }
 
 .profile-container:hover .overlay {
   opacity: 1;
-  color: white;
 }
 .profile-container {
   position: relative;
