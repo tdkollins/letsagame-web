@@ -39,7 +39,7 @@ function Header() {
         <img src={legacyLogo} style={{ height: "80px", width: "80px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
+          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button href='https://donate.tiltify.com/@phieki/letsagamelegacy' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
@@ -49,7 +49,7 @@ function Header() {
         <img src={legacyLogo} style={{ height: "80px", width: "80px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/'  style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
-          {/* <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>  */}
+          <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button href='https://donate.tiltify.com/@phieki/letsagamelegacy' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
