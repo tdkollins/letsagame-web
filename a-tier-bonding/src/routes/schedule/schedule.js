@@ -4,21 +4,21 @@ import CircularProgress from '@mui/material/CircularProgress';
 import "./schedule.css"
 
 function Schedule() {
-  const [loaded, setLoaded] = useState(false); 
-  const [schedule, setSchedule] = useState([]); 
+  const [loaded, setLoaded] = useState(false);
+  const [schedule, setSchedule] = useState([]);
 
   useEffect(() => {
     if (!loaded) {
       getGames().then(schedule => {
         setSchedule(schedule);
         setLoaded(true);
-      }) 
+      })
     }
   }, [loaded]);
   return (
-    loaded ? 
+    loaded ?
     <div className="schedule">
-      <h2>Schedule: All Times EST</h2>
+      <h2>Schedule: Times Shown in Local Timezone</h2>
       <div className="schedule-table">
         <table id='name'>
           <thead>
@@ -46,10 +46,10 @@ function Schedule() {
           </tbody>
         </table>
       </div>
-       
-    </div> 
-    : 
-    <div className="schedule-loading"> 
+
+    </div>
+    :
+    <div className="schedule-loading">
       <CircularProgress />
     </div>
   );
