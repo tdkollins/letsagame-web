@@ -25,6 +25,7 @@ function ProfilePopup (props) {
             {socialMediaURLs.twitter? <SocialIcon className="pp-socialmedia"url={socialMediaURLs.twitter} style={{ height: 35, width: 35 }}/> : null }
             {socialMediaURLs.twitch? <SocialIcon className="pp-socialmedia" url={socialMediaURLs.twitch} style={{ height: 35, width: 35 }}/> : null }
             {socialMediaURLs.tikTok? <SocialIcon className="pp-socialmedia" url={socialMediaURLs.tikTok} style={{ height: 35, width: 35 }}/> : null }
+            {socialMediaURLs.youtube? <SocialIcon className="pp-socialmedia" url={socialMediaURLs.youtube} style={{ height: 35, width: 35 }}/> : null }
           </div>
           : null}
           <p className="pp-description">{description}</p>
