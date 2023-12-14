@@ -19,7 +19,8 @@ function dumpTeamObject(row) {
       "twitter": row.twitter ? row.twitter : null,
       "instagram": row.instagram ? row.instagram : null,
       "twitch": row.twitch ? row.twitch : null,
-      "tikTok": row.tikTok ? row.tikTok : null
+      "tikTok": row.tikTok ? row.tikTok : null,
+      "youtube": row.youtube ? row.youtube : null
     }
   };
 }
