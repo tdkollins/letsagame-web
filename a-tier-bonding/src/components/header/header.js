@@ -42,7 +42,7 @@ function Header() {
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button href='https://donate.tiltify.com/8a6aa3b4-d61e-407f-a0d8-92b85f9e22df' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
+          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed} style={{ height: "80px" }}>
@@ -52,7 +52,7 @@ function Header() {
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button href='https://donate.tiltify.com/8a6aa3b4-d61e-407f-a0d8-92b85f9e22df' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
+          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
     </div>
