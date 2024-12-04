@@ -14,7 +14,7 @@ function VideoComponentNotLive() {
                 </h2>
             </Box>
             <Box className="video-embed-box">
-                <YoutubeEmbed className="video" embedId="ytPLubuB71M" />
+                <YoutubeEmbed className="video" embedId="1wqMTqvbuBI" />
             </Box>
         </Box>
     </Box>
