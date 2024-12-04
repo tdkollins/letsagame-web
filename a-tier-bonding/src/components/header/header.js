@@ -32,6 +32,7 @@ const NavBarStylesNotFixed = ({
 });
 
 
+
 function Header() {
   return (
     <div>
