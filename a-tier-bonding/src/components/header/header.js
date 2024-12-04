@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
 import './header.css'
-import Logo from "../../assets/water-logo-simple.png"
+import Logo from "../../assets/together_logo_transparent.png"
 
 const NavBarStylesFixed = ({
    display: 'flex', 
@@ -36,13 +36,13 @@ function Header() {
   return (
     <div>
       <Box sx={NavBarStylesFixed} style={{ height: "80px" }}>
-        <img src={Logo} style={{ height: "53px", width: "80px", padding: "0px" }} alt="Logo"/>
+        <img src={Logo} style={{ height: "80px", width: "80px", paddingTop: "8px" }} alt="Logo"/>
         <ButtonGroup color='inherit' size="large" variant="text">
           <Button component={Link} to='/' style={{ fontSize: '2vh', fontFamily: "Nevis" }}>  Home  </Button>
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button href='https://donate.tiltify.com/8a6aa3b4-d61e-407f-a0d8-92b85f9e22df' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
+          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed} style={{ height: "80px" }}>
@@ -52,7 +52,7 @@ function Header() {
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button href='https://donate.tiltify.com/8a6aa3b4-d61e-407f-a0d8-92b85f9e22df' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button> 
+          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
     </div>

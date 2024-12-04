@@ -16,11 +16,13 @@ function Footer() {
       <Box sx={FootBarStyles} style={{minWidth: 1425}}>
         <h4> Follow us on social media ! </h4> 
         <Button><SocialIcon url="https://www.youtube.com/channel/UCJHP_c33l2zt8KnRnD3mHrA" style={{ height: 35, width: 35 }}/> </Button>
-        <Button><SocialIcon url="https://www.facebook.com/lets.koilins.3" style={{ height: 35, width: 35 }}/> </Button>
+        {/* <Button><SocialIcon url="https://www.facebook.com/lets.koilins.3" style={{ height: 35, width: 35 }}/> </Button> */}
+        <Button><SocialIcon url="https://www.tiktok.com/@letsagame" style={{ height: 35, width: 35 }}/> </Button>
+        <Button><SocialIcon url="https://bsky.app/profile/letsagame.bsky.social" style={{ height: 35, width: 35 }}/> </Button>
         <Button><SocialIcon url="https://twitter.com/Lets_A_Game" style={{ height: 35, width: 35 }}/> </Button>
         <Button><SocialIcon url="https://www.instagram.com/lets_a_game/?hl=en" style={{ height: 35, width: 35 }}/> </Button>
         <Button><SocialIcon url="https://www.twitch.tv/phieki" style={{ height: 35, width: 35 }}/> </Button>
-        <Button><SocialIcon url="https://discord.gg/8sHMkkg2" style={{ height: 35, width: 35 }}/> </Button>
+        <Button><SocialIcon url="https://discord.gg/bASgcdu" style={{ height: 35, width: 35 }}/> </Button>
       </Box>
     </div>
   );
