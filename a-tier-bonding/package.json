@@ -3,27 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.5.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "^5.1.1",
-    "@mui/material": "^5.0.4",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "google-spreadsheet": "^3.2.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "google-spreadsheet": "^4.1.4",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-compound-timer": "^1.2.0",
-    "react-dom": "^17.0.2",
+    "react": "^18.3.1",
+    "react-compound-timer": "^2.0.5",
+    "react-dom": "^18.3.1",
     "react-parallax": "^3.3.0",
-    "react-router-dom": "^5.3.0",
+    "react-router-dom": "^7.1.1",
     "react-social-icons": "^6.18.0",
-    "react-twitch-embed": "^2.1.0",
-    "web-vitals": "^1.1.2"
+    "react-twitch-embed": "^3.0.2",
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
-    "@material-ui/core": "^4.12.3",
-    "react-scripts": "4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
