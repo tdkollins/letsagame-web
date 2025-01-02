@@ -1,13 +1,4 @@
-.schedule { 
-  font-family: Nevis;
-  min-height:87vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(228, 239, 241);
-  flex-direction: column;
-  min-width: 1500px;
-}
+
 
 .left-border {
   border-left: solid 5px grey; 
@@ -42,4 +33,22 @@
 @font-face {
   font-family: Nevis;
   src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}
+
+@media (min-width: 1025px) {
+  .schedule { 
+    font-family: Nevis;
+    min-height:87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 239, 241);
+    flex-direction: column;
+    padding-top: 1.5%; 
+    min-width: 1500px;
+  }
+
+  .schedule h2 {
+    font-size: 2vw; 
+  }
 }

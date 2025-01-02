@@ -2,3 +2,15 @@
     font-family: Nevis;
     src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
 }
+
+.navbar-logo {
+    width: 15vw;
+    height: 15vw;
+}
+
+@media (min-width: 1025px ) {
+    .navbar-logo {
+        width: 5vw; 
+        height: 5vw; 
+    }    
+}

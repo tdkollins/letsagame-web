@@ -2,41 +2,75 @@
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
-  justify-content: center;
   /* background-color: red; */
-  min-height: 25vh;
   font-family: Mario;
 }
 
+.timer-box h2 {
+  font-size: vh;
+  float: center; 
+
+}
 
 .timer-display { 
-  display: flex; 
-  font-size: 16vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.timer-box h2 {
-  font-size: 6vh;
-}
-.timer-text-box {
+.timer-display-unit {
   display: flex;
-  padding-left: 5vh;
+  flex-direction: column;
+  align-items: center;
+  width: 19%;
+  font-size: 10vw;
 }
-.timer-text-display {
-  display: flex;
-  padding-left: 3vh;
-}
-.timer-text-display h3{ 
-  padding: 0vh 8vh;
-  font-size: 5vh; 
-}
-.timer-text-display-seconds h3 {
-  padding-right: 10vh;
-  padding-left: 5vh;
-  font-size: 5vh;
+
+
+.timer-display-unit h3{
+  font-size: 6vw;
 }
 @font-face {
   font-family: Mario;
   src: url(../../assets/fonts/Mario/SuperMario.ttf) format('truetype');
+}
+
+@media (max-width: 320px) {
+  .timer-display { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .timer-box {
+    width: 110%;
+    height: 100%;
+    flex-direction: column; 
+    /* background-color: red; */
+    font-family: Mario;
+  }
+}
+
+@media (min-width: 1025px ) {
+  .timer-box h2 {
+    font-size: 4vw;
+  
+  }
+
+  .timer-display-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    font-size: 6vw;
+  }
+  
+  
+  .timer-display-unit h3{
+    font-size: 3vw;
+  }
 }

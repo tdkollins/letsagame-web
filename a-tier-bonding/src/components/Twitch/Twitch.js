@@ -9,8 +9,8 @@ function Twitch() {
         id="phieki"
         theme="dark"
         muted
-        width={1400}
-        height={720}
+        width={"100%"}
+        height={400}
         onVideoPause={() => console.log(':(')}
         withChat={true}
       />

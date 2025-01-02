@@ -6,16 +6,14 @@ import './videoComponentNotLive.css'
 function VideoComponentNotLive() {
   return (
     <Box className="video-box">
-        <Box className="video-plus-desc-box">
-            <Box className="video-desc-box">
-                <h2 className="video-desc"> 
-                    Benefiting The World 
-                    Through The Power Of Play 
-                </h2>
-            </Box>
-            <Box className="video-embed-box">
-                <YoutubeEmbed className="video" embedId="1wqMTqvbuBI" />
-            </Box>
+        <Box className="video-desc-box">
+            <h2 className="video-desc"> 
+                Benefiting The World 
+                Through The Power Of Play 
+            </h2>
+        </Box>
+        <Box className="video-embed-box">
+            <YoutubeEmbed className="video" embedId="1wqMTqvbuBI" />
         </Box>
     </Box>
   );
