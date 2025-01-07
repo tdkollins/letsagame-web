@@ -19,6 +19,10 @@ function App() {
         window.location.href = '/sweepstakes.pdf';
         return null;
       }}/>
+      <Route path="/giveaway" render={() => {
+        window.location.href = '/sweepstakes.pdf';
+        return null;
+      }}/>
       <Footer/> 
     </Router>
     </div>
