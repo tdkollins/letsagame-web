@@ -3,6 +3,7 @@ import "./team.css"
 import TeamProfile from '../../components/TeamProfile/teamProfile'
 import CircularProgress from '@mui/material/CircularProgress';
 import {getTeamProfiles} from '../../utils'
+import { useMediaQuery } from '@mui/material';
 
 const dummyTeamMember = [{
   name: 'Mcnuggies',
@@ -23,7 +24,8 @@ const dummyTeamMember = [{
 }]; 
 function Team() {
   const [loaded, setLoaded] = useState(false); 
-  const [teamProfiles, setTeamProfiles] = useState([]); 
+  const [teamProfiles, setTeamProfiles] = useState([]);
+  const isDesktop = useMediaQuery(('min-width: 1025px'));  
   useEffect(() => {
     if (!loaded) {
       getTeamProfiles().then(profiles => {
@@ -36,13 +38,17 @@ function Team() {
   const rows = [...Array( Math.ceil(teamProfiles.length / 3) )];
     // chunk the products into the array of rows
   const teamRows = rows.map( (row, idx) => teamProfiles.slice(idx * 3, idx * 3 + 3));
-  console.log(teamRows);
+  // console.log(teamRows);
   // map the rows as div.row
   const content = teamRows.map((row, idx) => (
       <div className="profile-row" key={idx}>    
         { row.map( member =><div className="member-container"><TeamProfile member={member}/></div>  )}
       </div> )
   );
+  // console.log(teamProfiles); 
+  const mobileContent = teamProfiles.map((row, idx) => (
+    <div> <TeamProfile member={row}/> </div>  
+  ));
 
   return (
     loaded ? 
@@ -57,7 +63,7 @@ function Team() {
        
     // </div>
     <div className='profiles-container'>
-      {content}
+      {isDesktop? content : mobileContent}
     </div>
     :
     <div className="schedule-loading"> 

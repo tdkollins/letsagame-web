@@ -1,9 +1,35 @@
 
-
 .left-border {
   border-left: solid 5px grey; 
 }
 
+.schedule {
+  padding: 4%; 
+}
+
+.schedule-mobile-main { 
+  display: flex; 
+  flex-direction: column;
+  font-family: Nevis; 
+  border-top: solid 2px grey; 
+  padding: 3vh 0vh; 
+}
+
+.schedule-mobile-time { 
+  font-size: 3vh; 
+}
+
+.schedule-mobile-name {
+  font-size: 5vh;
+}
+
+.schedule-mobile-player {
+  font-size: 4vh;
+}
+
+.schedule h2  {
+  font-size: 5vh; 
+}
 .schedule-table { 
   padding-bottom: 3.5vh;
 }

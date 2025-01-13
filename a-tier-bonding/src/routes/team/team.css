@@ -1,12 +1,15 @@
-.profiles-container{
-  
-  padding: 5vh 0vh; 
+.profiles-container{ 
+  display: flex; 
+  align-items: center;
+  flex-direction: column ; 
 }
+
 .member-container{
   margin-left: 5vh; 
   margin-right: 5vh;
   flex-grow: 33%;
 }
+
 .profile-row {
   display: flex;
   align-items:center; 
@@ -24,4 +27,11 @@
 @font-face {
   font-family: Nevis;
   src: url(../../assets/fonts/Nevis/nevis.ttf) format('truetype');
+}
+
+@media (min-width: 1025px) {
+  .profiles-container{ 
+    padding: 5vh 0vh; 
+  }
+
 }

@@ -49,7 +49,25 @@ function Schedule() {
         </tbody>
       </table>
       </div>
-      : null }
+      : 
+      <div>
+        {schedule.map((activity) => {
+          const { name, startTime , endTime , gamePlayers } = activity //destructuring
+          const startTimeEST = new Date(startTime).toLocaleString('en-us', { month: 'long', day: '2-digit', year: 'numeric', hour:'2-digit',minute: '2-digit' })
+          const endTimeEST = new Date(endTime).toLocaleString('en-us', { month: 'long', day: '2-digit', year: 'numeric', hour:'2-digit',minute: '2-digit' })
+          
+          return (
+            <div className='schedule-mobile-main'> 
+              <div className='schedule-mobile-name'> {name} </div>
+              <div className='schedule-mobile-time'> {startTimeEST} - {endTimeEST} </div> 
+              <div className='schedule-mobile-player'> Players: {gamePlayers.join(', ')} </div>
+            </div> 
+          )
+        })
+
+        }
+      </div> 
+      }
     </div>
     :
     <div className="schedule-loading">
