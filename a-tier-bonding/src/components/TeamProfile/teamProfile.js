@@ -22,7 +22,7 @@ function TeamProfile (props) {
         <div>
           <IconButton onClick={handleClickOpen}>
             <div className="profile-container">  
-              <Avatar className="team-profile" sx={{width: '15vh', height: '15vh'}}src={images(`./${pfpPath}.png`).default}alt ="nothing"/> 
+              <Avatar className="team-profile" sx={{width: '15vh', height: '15vh'}}src={images(`./${pfpPath}.png`).default}alt ="nothing"/>
               <div className="overlay">
                 <p className='overlay-text'> Click here </p> 
               </div>

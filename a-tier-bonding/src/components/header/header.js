@@ -44,7 +44,7 @@ function Header() {
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button>
-          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
+          <Button href='https://tilt.fyi/gtDUwDkvAb' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
       <Box sx={NavBarStylesNotFixed} style={{ height: "80px" }}>
@@ -55,7 +55,7 @@ function Header() {
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
           <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button>
-          <Button href='https://tilt.fyi/w6q2G4M9Vd' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
+          <Button href='https://tilt.fyi/gtDUwDkvAb' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
     </div>
