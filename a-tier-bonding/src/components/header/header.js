@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
 import './header.css'
-import Logo from "../../assets/together_logo_transparent.png"
+import Logo from "../../assets/chaos_logo_transparent.png"
 
 const NavBarStylesFixed = ({
    display: 'flex', 

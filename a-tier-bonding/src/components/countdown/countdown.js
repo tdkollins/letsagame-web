@@ -5,7 +5,7 @@ import Timer from 'react-compound-timer'
 
 
 var t1 = new Date();
-var t2 = new Date("2025-01-01T08:00:00.000-05:00");
+var t2 = new Date("2025-12-19T08:00:00.000-05:00");
 var dif = t2.getTime() - t1.getTime();
 
 function Countdown() {
