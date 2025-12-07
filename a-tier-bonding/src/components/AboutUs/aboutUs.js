@@ -16,7 +16,7 @@ function AboutUs() {
           and silliness is held in an effort to raise as much money as possible 
           for a good cause. Viewers participate directly, talking via live chat, 
           donating towards fun incentives, hanging out and having a good time. 
-          Come join us for our 12th event, Let's-A-Game Chaos, in support of the
+          Come join us for our 13th event, Let's-A-Game Chaos, in support of the
           Immune Deficiency Foundation, beginning on December 19th 8am EST!
           </h2>
         </Parallax>
