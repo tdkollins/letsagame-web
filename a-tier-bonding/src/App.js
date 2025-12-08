@@ -15,14 +15,14 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/schedule" exact component={Schedule} />
       <Route path="/team" exact component={Team} />
-      <Route path="/sweepstakes" render={() => {
+      {/* <Route path="/sweepstakes" render={() => {
         window.location.href = '/sweepstakes.pdf';
         return null;
       }}/>
       <Route path="/giveaway" render={() => {
         window.location.href = '/sweepstakes.pdf';
         return null;
-      }}/>
+      }}/> */}
       <Footer/> 
     </Router>
     </div>

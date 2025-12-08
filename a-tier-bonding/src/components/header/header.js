@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from "react-router-dom";
 import './header.css'
-import Logo from "../../assets/together_logo_transparent.png"
+import Logo from "../../assets/chaos_logo_transparent.png"
 
 const NavBarStylesFixed = ({
    display: 'flex', 
@@ -43,7 +43,7 @@ function Header() {
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button>
+          {/* <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button> */}
           <Button href='https://tilt.fyi/gtDUwDkvAb' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
@@ -54,7 +54,7 @@ function Header() {
           <Button component={Link} to='/schedule' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Schedule  </Button>
           <Button component={Link} to='/team' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Team </Button> 
           <Button href='https://www.twitch.tv/phieki' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Twitch </Button> 
-          <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button>
+          {/* <Button component={Link} to='/sweepstakes' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Sweepstakes </Button> */}
           <Button href='https://tilt.fyi/gtDUwDkvAb' style={{ fontSize: '2vh', fontFamily: "Nevis" }}> Donate  </Button>
         </ButtonGroup> 
       </Box>
