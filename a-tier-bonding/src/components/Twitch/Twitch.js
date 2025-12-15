@@ -3,7 +3,7 @@ import { TwitchEmbed, TwitchChat, TwitchClip, TwitchPlayer } from 'react-twitch-
  
 function Twitch() {
   return (
-    <div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
       <TwitchEmbed
         channel="phieki"
         id="phieki"
