@@ -4,7 +4,7 @@ import HomepageNotLive from "../../components/HomepageNotLive/HomepageNotLive";
 
 function Homepage() { 
   return (
-    <HomepageNotLive/>
+    <HomepageLive/>
   );
 }
 
